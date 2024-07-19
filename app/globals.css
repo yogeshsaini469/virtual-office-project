@@ -31,3 +31,21 @@ body {
     text-wrap: balance;
   }
 }
+.hero-section{
+    background-image: url('/Homepage_Serach.jpg.png');
+    /* Adjust background properties as needed */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image horizontally and vertically */
+}
+.min-h-88vh {
+  min-height: 88vh;
+}
+.search-bar{
+  background-color: #F4F3F0;
+}
+.flexible-workspace{
+  background-color: #F5F5F5;
+}
+.card-img{
+  width: fit-content;
+}
