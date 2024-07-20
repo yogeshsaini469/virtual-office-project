@@ -11,7 +11,7 @@ export default function Hero() {
                     <title>Discover the Ultimate Workspace Solution</title>
                     <meta name="description" content="Find your perfect workspace, from a single desk to a whole building." />
                 </Head>
-                <main className="container mx-auto px-4 py-8 max-w-5xl">
+                <main className="container mx-auto px-4 py-8 max-w-5xl text-white">
                     <p className="text-center mb-4">
                         From a single desk to a whole building. The choice is yours.
                     </p>
