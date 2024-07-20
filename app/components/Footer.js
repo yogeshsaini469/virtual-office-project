@@ -85,7 +85,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <div className='bg-gray-800'>
+      <div className='bg-gray-800 text-white'>
         <div className="container mx-auto px-4  p-4">
           <h2 className="text-lg font-semibold mb-4">Virtual Office in Major Cities</h2>
           <p className="text-sm mb-6">
