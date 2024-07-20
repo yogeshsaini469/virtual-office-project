@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -17,6 +17,7 @@
 }
 
 body {
+  font-family: "Assistant", sans-serif;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -35,7 +36,9 @@ body {
     background-image: url('/Homepage_Serach.jpg.png');
     /* Adjust background properties as needed */
     background-size: cover; /* Ensures the image covers the entire container */
-    background-position: center; /* Centers the image horizontally and vertically */
+    background-position: top; /* Centers the image horizontally and vertically */
+    filter: brightness(0.9); /* Adjusts the brightness of the background image */
+
 }
 .min-h-88vh {
   min-height: 88vh;
@@ -47,5 +50,8 @@ body {
   background-color: #F5F5F5;
 }
 .card-img{
-  width: fit-content;
+  width: 100%;
+}
+.light-color{
+  color: #393939 !important;
 }

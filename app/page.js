@@ -6,6 +6,10 @@ import Workspace from "./components/FlexibleWorkspace";
 import WorkspaceSolution from "./components/WorkspaceSolution";
 import VirtualAddressBenefits from "./components/VirtualAddressBenefits";
 import TrustedCompanies from "./components/TrustedCompanies";
+import TestimonialComponent from "./components/TestimonialComponent";
+import Launchwise from "./components/Launchwise";
+import FAQ from "./components/FAQ";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +21,10 @@ export default function Home() {
       <WorkspaceSolution />
       <VirtualAddressBenefits />
       <TrustedCompanies />
+      <TestimonialComponent />
+      <Launchwise />
+      <FAQ/>
+      <Footer />
     </>
 
   );

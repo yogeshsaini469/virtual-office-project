@@ -37,7 +37,7 @@ const VirtualAddressBenefits = () => {
      
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="space-y-6">
-        <h1 className="text-5xl  mb-8 text-left">Use Virtual Address For</h1>
+        <h1 className="text-3xl md:text-4xl mb-8 text-left">Use Virtual Address For</h1>
           {benefits.map((benefit, index) => (
             <div key={index} className="flex items-center space-x-4">
               <div className="flex-shrink-0 bg-white p-6 rounded-full">
@@ -50,11 +50,11 @@ const VirtualAddressBenefits = () => {
             </div>
           ))}
         </div>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center  ">
           <img
             src="/Group 48095425 (1).png"
             alt="Business meeting"
-            
+            className='max-w-96'
           />
         </div>
       </div>

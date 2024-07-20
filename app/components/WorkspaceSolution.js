@@ -36,15 +36,16 @@ const WorkspaceSolution = () => {
     return (
         <div className='bg-white'>
             <div className="container mx-auto px-4 py-8 md:py-16 text-gray-700">
-                <div className="flex flex-col-reverse md:flex-row items-center">
+                <div className="flex flex-col-reverse md:flex-row items-center gap-4">
                     <div className="w-full md:w-1/2 mb-8 md:mb-0 md:pr-8">
                         <img
                             src="/Group 48095425.png"
                             alt="Office meeting"
+                            className='m-auto'
                         />
                     </div>
                     <div className="w-full md:w-1/2">
-                        <h1 className="text-3xl md:text-4xl font-bold mb-4">
+                        <h1 className="text-3xl md:text-4xl mb-4">
                             Discover the Ultimate <br />Workspace Solution<span className="text-blue-500">.</span>
                         </h1>
                         <p className="text-gray-600 mb-8">

@@ -36,9 +36,11 @@ const services = [
 const ServiceCard = ({ title, description, icon }) => (
   <div className="p-6 border rounded-lg hover:shadow-lg">
     <div className='flex gap-5 justify-start items-center'>
-      <img src={icon} alt={title} className="w-12 h-12 mb-4" />
-      <div className='w-56'>
-        <h3 className="text-xl text-blue-500 font-semibold mb-2 underline">{title}</h3>
+      <img src={icon} alt={title} className="w-16 h-16 mb-4" />
+      <div className='w-56 space-y-5'>
+        <h3 className="relative inline-block text-xl text-blue-500 mb-2 after:content-[''] after:absolute after:top-5 after:left-0 after:h-[2px] after:w-[80%] after:bg-gray-500 after:mt-4">
+          {title}
+        </h3>
         <p className="text-gray-600">{description}</p>
         <a href="#" className="text-blue-600 mt-4 inline-block">
           →
@@ -50,7 +52,7 @@ const ServiceCard = ({ title, description, icon }) => (
 
 const ServicesComponent = () => {
   return (
-    <div className="mx-auto px-4 bg-white ">
+    <div className="mx-auto px-4 py-10 bg-white ">
       <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 container mx-auto py-10">
         {services.map((service) => (
           <ServiceCard key={service.title} {...service} />
